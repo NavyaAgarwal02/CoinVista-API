@@ -1,6 +1,6 @@
-# KoinX Backend Server
+# CoinVista API
 
-Welcome to the KoinX Backend Server! This server provides endpoints to retrieve cryptocurrency statistics and deviations for supported coins. The server uses [Prisma](https://www.prisma.io/) as an ORM to interact with the database.
+Welcome to the CoinVista API! This server provides endpoints to retrieve cryptocurrency statistics and deviations for supported coins. The server uses [Prisma](https://www.prisma.io/) as an ORM to interact with the database.
 
 ## API Endpoints
 
@@ -74,8 +74,8 @@ Welcome to the KoinX Backend Server! This server provides endpoints to retrieve 
 **1. Clone the repository:**
 
    ```bash
-   git clone https://github.com/T-Naveen-2308/KoinX-Backend-Server.git
-   cd KoinX-Backend-Server
+   git clone https://github.com/NavyaAgarwal02/CoinVista-API.git
+   cd CoinVista-API
    ```
 
 **2. Install dependencies:**
