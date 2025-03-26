@@ -1,0 +1,33 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "CoinVista API",
+    "type": "module",
+    "main": "./src/index.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "tsc && node dist/index.js",
+        "build": "tsc && prisma generate",
+        "start": "node dist/index.js",
+        "postinstall": "prisma generate"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@prisma/client": "^5.20.0",
+        "axios": "^1.7.7",
+        "dotenv": "^16.4.5",
+        "express": "^4.21.1",
+        "express-async-handler": "^1.2.0",
+        "node-cron": "^3.0.3",
+        "prisma": "^5.20.0"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.0",
+        "@types/node": "^22.7.5",
+        "@types/node-cron": "^3.0.11",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.6.3"
+    }
+}
